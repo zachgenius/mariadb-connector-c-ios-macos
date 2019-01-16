@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B31A2C21EF398700C59472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B31A2B21EF398700C59472 /* AppDelegate.m */; };
+		80B31A2F21EF398700C59472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B31A2E21EF398700C59472 /* ViewController.m */; };
+		80B31A3221EF398700C59472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A3021EF398700C59472 /* Main.storyboard */; };
+		80B31A3421EF398800C59472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A3321EF398800C59472 /* Assets.xcassets */; };
+		80B31A3721EF398800C59472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A3521EF398800C59472 /* LaunchScreen.storyboard */; };
+		80B31A3A21EF398800C59472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B31A3921EF398800C59472 /* main.m */; };
+		80B31A6521EF39DD00C59472 /* libmariadbclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B31A4121EF39DD00C59472 /* libmariadbclient.a */; };
+		80B31A6621EF39DD00C59472 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A4421EF39DD00C59472 /* CMakeLists.txt */; };
+		80B31A6721EF39DD00C59472 /* cmake_install.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A4C21EF39DD00C59472 /* cmake_install.cmake */; };
+		80B31A6821EF39DD00C59472 /* ma_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A5B21EF39DD00C59472 /* ma_config.h.in */; };
+		80B31A6921EF39DD00C59472 /* mariadb_version.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 80B31A5C21EF39DD00C59472 /* mariadb_version.h.in */; };
+		80B31A6C21EF39EA00C59472 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B31A6B21EF39EA00C59472 /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80B31A2721EF398700C59472 /* mariadb-connector-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mariadb-connector-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B31A2A21EF398700C59472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80B31A2B21EF398700C59472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80B31A2D21EF398700C59472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80B31A2E21EF398700C59472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80B31A3121EF398700C59472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B31A3321EF398800C59472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B31A3621EF398800C59472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B31A3821EF398800C59472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B31A3921EF398800C59472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80B31A4121EF39DD00C59472 /* libmariadbclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmariadbclient.a; sourceTree = "<group>"; };
+		80B31A4321EF39DD00C59472 /* ma_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_global.h; sourceTree = "<group>"; };
+		80B31A4421EF39DD00C59472 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		80B31A4621EF39DD00C59472 /* ma_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_io.h; sourceTree = "<group>"; };
+		80B31A4721EF39DD00C59472 /* ma_tls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_tls.h; sourceTree = "<group>"; };
+		80B31A4821EF39DD00C59472 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		80B31A4921EF39DD00C59472 /* mariadb_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_ctype.h; sourceTree = "<group>"; };
+		80B31A4A21EF39DD00C59472 /* mariadb_dyncol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_dyncol.h; sourceTree = "<group>"; };
+		80B31A4B21EF39DD00C59472 /* ma_pvio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_pvio.h; sourceTree = "<group>"; };
+		80B31A4C21EF39DD00C59472 /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		80B31A4D21EF39DD00C59472 /* ma_server_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_server_error.h; sourceTree = "<group>"; };
+		80B31A4E21EF39DD00C59472 /* ma_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_pthread.h; sourceTree = "<group>"; };
+		80B31A4F21EF39DD00C59472 /* ma_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_crypt.h; sourceTree = "<group>"; };
+		80B31A5021EF39DD00C59472 /* mariadb_async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_async.h; sourceTree = "<group>"; };
+		80B31A5121EF39DD00C59472 /* mariadb_stmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_stmt.h; sourceTree = "<group>"; };
+		80B31A5221EF39DD00C59472 /* ma_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_config.h; sourceTree = "<group>"; };
+		80B31A5321EF39DD00C59472 /* ma_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_context.h; sourceTree = "<group>"; };
+		80B31A5421EF39DD00C59472 /* ma_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_list.h; sourceTree = "<group>"; };
+		80B31A5521EF39DD00C59472 /* ma_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_sys.h; sourceTree = "<group>"; };
+		80B31A5721EF39DD00C59472 /* plugin_auth_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_auth_common.h; sourceTree = "<group>"; };
+		80B31A5821EF39DD00C59472 /* plugin_auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_auth.h; sourceTree = "<group>"; };
+		80B31A5921EF39DD00C59472 /* client_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_plugin.h; sourceTree = "<group>"; };
+		80B31A5A21EF39DD00C59472 /* ma_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_string.h; sourceTree = "<group>"; };
+		80B31A5B21EF39DD00C59472 /* ma_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ma_config.h.in; sourceTree = "<group>"; };
+		80B31A5C21EF39DD00C59472 /* mariadb_version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mariadb_version.h.in; sourceTree = "<group>"; };
+		80B31A5D21EF39DD00C59472 /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		80B31A5E21EF39DD00C59472 /* ma_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_sha1.h; sourceTree = "<group>"; };
+		80B31A5F21EF39DD00C59472 /* mariadb_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_com.h; sourceTree = "<group>"; };
+		80B31A6021EF39DD00C59472 /* mysqld_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_error.h; sourceTree = "<group>"; };
+		80B31A6121EF39DD00C59472 /* ma_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_common.h; sourceTree = "<group>"; };
+		80B31A6221EF39DD00C59472 /* ma_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ma_hash.h; sourceTree = "<group>"; };
+		80B31A6321EF39DD00C59472 /* mariadb_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mariadb_version.h; sourceTree = "<group>"; };
+		80B31A6421EF39DD00C59472 /* errmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errmsg.h; sourceTree = "<group>"; };
+		80B31A6B21EF39EA00C59472 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B31A2421EF398700C59472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B31A6C21EF39EA00C59472 /* libiconv.tbd in Frameworks */,
+				80B31A6521EF39DD00C59472 /* libmariadbclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B31A1E21EF398700C59472 = {
+			isa = PBXGroup;
+			children = (
+				80B31A2921EF398700C59472 /* mariadb-connector-c */,
+				80B31A2821EF398700C59472 /* Products */,
+				80B31A6A21EF39E900C59472 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80B31A2821EF398700C59472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A2721EF398700C59472 /* mariadb-connector-c.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B31A2921EF398700C59472 /* mariadb-connector-c */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A4021EF39DD00C59472 /* Sources */,
+				80B31A2A21EF398700C59472 /* AppDelegate.h */,
+				80B31A2B21EF398700C59472 /* AppDelegate.m */,
+				80B31A2D21EF398700C59472 /* ViewController.h */,
+				80B31A2E21EF398700C59472 /* ViewController.m */,
+				80B31A3021EF398700C59472 /* Main.storyboard */,
+				80B31A3321EF398800C59472 /* Assets.xcassets */,
+				80B31A3521EF398800C59472 /* LaunchScreen.storyboard */,
+				80B31A3821EF398800C59472 /* Info.plist */,
+				80B31A3921EF398800C59472 /* main.m */,
+			);
+			path = "mariadb-connector-c";
+			sourceTree = "<group>";
+		};
+		80B31A4021EF39DD00C59472 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A4121EF39DD00C59472 /* libmariadbclient.a */,
+				80B31A4221EF39DD00C59472 /* include */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		80B31A4221EF39DD00C59472 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A4321EF39DD00C59472 /* ma_global.h */,
+				80B31A4421EF39DD00C59472 /* CMakeLists.txt */,
+				80B31A4521EF39DD00C59472 /* mariadb */,
+				80B31A4721EF39DD00C59472 /* ma_tls.h */,
+				80B31A4821EF39DD00C59472 /* config.h */,
+				80B31A4921EF39DD00C59472 /* mariadb_ctype.h */,
+				80B31A4A21EF39DD00C59472 /* mariadb_dyncol.h */,
+				80B31A4B21EF39DD00C59472 /* ma_pvio.h */,
+				80B31A4C21EF39DD00C59472 /* cmake_install.cmake */,
+				80B31A4D21EF39DD00C59472 /* ma_server_error.h */,
+				80B31A4E21EF39DD00C59472 /* ma_pthread.h */,
+				80B31A4F21EF39DD00C59472 /* ma_crypt.h */,
+				80B31A5021EF39DD00C59472 /* mariadb_async.h */,
+				80B31A5121EF39DD00C59472 /* mariadb_stmt.h */,
+				80B31A5221EF39DD00C59472 /* ma_config.h */,
+				80B31A5321EF39DD00C59472 /* ma_context.h */,
+				80B31A5421EF39DD00C59472 /* ma_list.h */,
+				80B31A5521EF39DD00C59472 /* ma_sys.h */,
+				80B31A5621EF39DD00C59472 /* mysql */,
+				80B31A5A21EF39DD00C59472 /* ma_string.h */,
+				80B31A5B21EF39DD00C59472 /* ma_config.h.in */,
+				80B31A5C21EF39DD00C59472 /* mariadb_version.h.in */,
+				80B31A5D21EF39DD00C59472 /* mysql.h */,
+				80B31A5E21EF39DD00C59472 /* ma_sha1.h */,
+				80B31A5F21EF39DD00C59472 /* mariadb_com.h */,
+				80B31A6021EF39DD00C59472 /* mysqld_error.h */,
+				80B31A6121EF39DD00C59472 /* ma_common.h */,
+				80B31A6221EF39DD00C59472 /* ma_hash.h */,
+				80B31A6321EF39DD00C59472 /* mariadb_version.h */,
+				80B31A6421EF39DD00C59472 /* errmsg.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		80B31A4521EF39DD00C59472 /* mariadb */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A4621EF39DD00C59472 /* ma_io.h */,
+			);
+			path = mariadb;
+			sourceTree = "<group>";
+		};
+		80B31A5621EF39DD00C59472 /* mysql */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A5721EF39DD00C59472 /* plugin_auth_common.h */,
+				80B31A5821EF39DD00C59472 /* plugin_auth.h */,
+				80B31A5921EF39DD00C59472 /* client_plugin.h */,
+			);
+			path = mysql;
+			sourceTree = "<group>";
+		};
+		80B31A6A21EF39E900C59472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B31A6B21EF39EA00C59472 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B31A2621EF398700C59472 /* mariadb-connector-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B31A3D21EF398800C59472 /* Build configuration list for PBXNativeTarget "mariadb-connector-c" */;
+			buildPhases = (
+				80B31A2321EF398700C59472 /* Sources */,
+				80B31A2421EF398700C59472 /* Frameworks */,
+				80B31A2521EF398700C59472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mariadb-connector-c";
+			productName = "mariadb-connector-c";
+			productReference = 80B31A2721EF398700C59472 /* mariadb-connector-c.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B31A1F21EF398700C59472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WildFox;
+				TargetAttributes = {
+					80B31A2621EF398700C59472 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 80B31A2221EF398700C59472 /* Build configuration list for PBXProject "mariadb-connector-c" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B31A1E21EF398700C59472;
+			productRefGroup = 80B31A2821EF398700C59472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B31A2621EF398700C59472 /* mariadb-connector-c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B31A2521EF398700C59472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B31A6821EF39DD00C59472 /* ma_config.h.in in Resources */,
+				80B31A6621EF39DD00C59472 /* CMakeLists.txt in Resources */,
+				80B31A3721EF398800C59472 /* LaunchScreen.storyboard in Resources */,
+				80B31A6921EF39DD00C59472 /* mariadb_version.h.in in Resources */,
+				80B31A3421EF398800C59472 /* Assets.xcassets in Resources */,
+				80B31A6721EF39DD00C59472 /* cmake_install.cmake in Resources */,
+				80B31A3221EF398700C59472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B31A2321EF398700C59472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B31A2F21EF398700C59472 /* ViewController.m in Sources */,
+				80B31A3A21EF398800C59472 /* main.m in Sources */,
+				80B31A2C21EF398700C59472 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80B31A3021EF398700C59472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B31A3121EF398700C59472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B31A3521EF398800C59472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B31A3621EF398800C59472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B31A3B21EF398800C59472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80B31A3C21EF398800C59472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B31A3E21EF398800C59472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2ZMMRKZYZ;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Sources/include";
+				INFOPLIST_FILE = "mariadb-connector-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.wildfox.mariadb-connector-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B31A3F21EF398800C59472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2ZMMRKZYZ;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Sources/include";
+				INFOPLIST_FILE = "mariadb-connector-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.wildfox.mariadb-connector-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B31A2221EF398700C59472 /* Build configuration list for PBXProject "mariadb-connector-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B31A3B21EF398800C59472 /* Debug */,
+				80B31A3C21EF398800C59472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B31A3D21EF398800C59472 /* Build configuration list for PBXNativeTarget "mariadb-connector-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B31A3E21EF398800C59472 /* Debug */,
+				80B31A3F21EF398800C59472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B31A1F21EF398700C59472 /* Project object */;
+}
