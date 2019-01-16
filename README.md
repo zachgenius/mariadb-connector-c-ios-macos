@@ -18,7 +18,7 @@ The sample project simply lists the tables within a database. Update the #define
 
 ## Notes and Thanks
 
-I made this project due to the demands of my product. It's inspired by [James Richard]()'s project [mysql-connector-c](https://github.com/ketzusaka/mysql-connector-c). Thanks to his tutorial, I generated the same version's mysql connector. However there're still some errors with the newest mysql connector/c 6.1.11.
+I made this project due to the demands of my product. It's inspired by [James Richard](https://github.com/ketzusaka)'s project [mysql-connector-c](https://github.com/ketzusaka/mysql-connector-c). Thanks to his tutorial, I generated the same version's mysql connector. However there're still some errors with the newest mysql connector/c 6.1.11.
 
 With some modification from his tutorial, I successfully generated MariaDB connector/c library through the source code. And now the compiling tutorial is now in the wiki page.
 
